@@ -71,6 +71,23 @@
     color: black;
 }
 
+.button-more {
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 0.3rem;
+    line-height: 1.5;
+}
+
+.button-more:hover {
+    color: black;
+    transition: var(--transition-speed);
+    background-color: white;
+}
+
 
 /* Small screens */
 

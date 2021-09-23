@@ -36,6 +36,7 @@ const Intro = () => {
                         </a>
                     </li>
                 </ul>
+                <a href="#about" role="button" className="button-more">More About Me</a>
             </div>
 
         </section>

@@ -5,7 +5,7 @@ const NavBar = () => {
         <nav className="navbar">
             <ul class="navbar-nav">
                 <li className="logo">
-                    <a href="" className="nav-link">
+                    <a href="." className="nav-link">
                         <span className="logo-text"> Z.BARRAZ </span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -15,7 +15,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a href="#about" className="nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <circle cx="12" cy="12" r="9"></circle>
@@ -26,7 +26,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a href="#experience" className="nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-briefcase" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <rect x="3" y="7" width="18" height="13" rx="2"></rect>
@@ -38,7 +38,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a href="#projects" className="nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
@@ -47,7 +47,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a href="#skills" className="nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path>
@@ -58,7 +58,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a href="#contact" className="nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-at" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <circle cx="12" cy="12" r="4"></circle>

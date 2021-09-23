@@ -1,6 +1,8 @@
+import './Experience.css'
+
 const Experience = () => {
     return ( 
-        <section className="experience">
+        <section className="experience" id="experience">
 
         </section>
     );

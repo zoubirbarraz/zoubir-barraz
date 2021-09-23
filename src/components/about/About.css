@@ -1,0 +1,134 @@
+@import url("../../index.css");
+.about {
+    height: 100vh;
+    background: #b3cde0;
+}
+
+.description {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img {
+    max-width: 100%;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.profile {
+    flex: 0.5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile h2 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.profile p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 1rem;
+}
+
+.profile button,
+.profile a {
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 0.3rem;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile button:hover,
+.profile a:hover {
+    background-color: white;
+    color: black;
+    transition: var(--transition-speed);
+}
+
+.profile button:focus,
+.profile a:focus {
+    outline: white;
+}
+
+
+/* Small screens */
+
+@media only screen and (max-width: 700px) {
+    .description {
+        height: calc(100vh - 5rem);
+        flex-direction: column;
+    }
+    .picture {
+        flex: 0.4;
+    }
+    .profile {
+        flex: 0.6;
+    }
+    .picture img {
+        width: 250px;
+        height: 250px;
+    }
+    .profile h2 {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        color: black;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .profile p {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+        color: white;
+        line-height: 1.2;
+        padding: 5px;
+        margin: 1rem;
+        overflow: hidden;
+    }
+    .profile button,
+    .profile a {
+        background-color: transparent;
+        border: solid 2px white;
+        border-radius: 0.3rem;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-decoration: none;
+        color: white;
+        overflow: hidden;
+    }
+    .resume {
+        flex-direction: column;
+    }
+}

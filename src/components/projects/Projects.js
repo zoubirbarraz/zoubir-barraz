@@ -1,6 +1,8 @@
+import "./Projects.css"
+
 const Projects = () => {
     return ( 
-    <section className="projects">
+    <section className="projects" id="projects">
 
     </section> 
     );
