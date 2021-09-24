@@ -1,5 +1,130 @@
 .experience {
     height: 100vh;
+    background: #3a586d;
+    width: 100%;
     display: flex;
-    background: #759fbd;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience h1 {
+    font-size: 3rem;
+    margin: 2rem;
+    color: white;
+}
+
+.container {
+    /* Used to position the left vertical line */
+    position: relative;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.container__line {
+    /* Border */
+    border-right: 2px solid #759fbd;
+    /* Positioned at the left */
+    left: 16px;
+    position: absolute;
+    top: 0px;
+    /* Take full height */
+    height: 100%;
+}
+
+.container__items {
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container__item {
+    margin-bottom: 1rem;
+}
+
+.container__top {
+    /* Center the content horizontally */
+    align-items: center;
+    display: flex;
+}
+
+.container__circle {
+    /* Rounded border */
+    background-color: #759fbd;
+    border-radius: 9999px;
+    /* Size */
+    height: 32px;
+    width: 32px;
+}
+
+.container__title {
+    /* Take available width */
+    flex: 1;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.container__desc {
+    /* Make it align with the title */
+    margin-left: 48px;
+}
+
+.container__desc p {
+    margin: 10px;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.container__desc p.ps {
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .experience h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .container {
+        /* Used to position the left vertical line */
+        height: calc(100% - 5rem);
+    }
+    .container__line {
+        /* Positioned at the left */
+        left: 8px;
+        /* Take full height */
+        height: 100%;
+    }
+    .container__circle {
+        /* Size */
+        height: 16px;
+        width: 16px;
+    }
+    .container__title {
+        /* Take available width */
+        flex: 1;
+        margin-left: 1rem;
+        color: white;
+        font-size: 10px;
+    }
+    .container__desc {
+        /* Make it align with the title */
+        margin-left: 22px;
+    }
+    .container__desc p {
+        margin: 10px;
+        font-size: 9px;
+        color: white;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+    .container__desc p.ps {
+        margin-left: 1rem;
+        margin: 0;
+    }
 }
