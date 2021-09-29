@@ -68,7 +68,7 @@
     font-size: 1rem;
 }
 
-p a {
+.profile p a {
     text-decoration: none;
     color: white;
     font-weight: 500;

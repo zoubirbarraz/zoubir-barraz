@@ -24,12 +24,12 @@ const Skills = () => {
                     <div className="elements">
                         <ul>
                             <li>Drone photogrammetry</li>
-                            <li>Metasape Agisoft Photoscan</li>
-                            <li>MicMac</li>
-                            <li>Pix4D</li>
+                            <li>Web Mapping</li>
+                            <li>3D scanning</li>
                             <li>Spatial Analysis</li>
                             <li>Cartography</li>
                             <li>3D Modeling</li>
+                            <li>Land Survey</li>
                         </ul>
                     </div>
                 </div>

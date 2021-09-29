@@ -1,5 +1,101 @@
 .contact {
-    height: 100vh;
-    display: flex;
+    height: 40vh;
     background: #14364e;
+}
+
+.contact h1 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.message {
+    text-align: center;
+}
+
+.message p {
+    margin: 10px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.message a {
+    color: white;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.signature span {
+    font-size: 1.3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.signature a {
+    background-color: lightskyblue;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.signature img,
+.signature svg {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.signature img {
+    animation: logo-rotation infinite 20s linear;
+}
+
+@keyframes logo-rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Small screens */
+
+@media only screen and (max-width: 700px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+    .message p {
+        font-size: 1rem;
+    }
+    .contact {
+        height: calc(30vh + 10rem);
+    }
+    .signature span {
+        font-size: 1rem;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: white;
+    }
+    .signature a {
+        font-size: 1rem;
+    }
+    .signature img,
+    .signature svg {
+        width: 1rem;
+        height: 1rem;
+    }
 }

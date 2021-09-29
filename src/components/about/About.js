@@ -69,7 +69,7 @@ const About = () => {
         <section className="about" id="about">
             <div className="description">
                 <div className="picture">
-                    <img src="assets/Zoubir_Barraz1.png" alt="Zoubir BARRAZ" />
+                    <img src="assets/Zoubir_Barraz.JPG" alt="Zoubir BARRAZ" />
                 </div>
                 <div className="profile">
                     <h2>About Me</h2>
