@@ -18,6 +18,14 @@
             scroll-snap-type: y mandatory;
             scroll-snap-align: start;
         }
+        
+        @media only screen and (max-width: 700px) {
+            * {
+                scroll-behavior: unset;
+                scroll-snap-type: unset;
+                scroll-snap-align: unset;
+            }
+        }
     </style>
 </head>
 

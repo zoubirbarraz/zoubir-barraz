@@ -92,7 +92,7 @@
     }
     .container {
         /* Used to position the left vertical line */
-        height: calc(100% - 5rem);
+        height: 100%;
     }
     .container__line {
         /* Positioned at the left */
@@ -118,7 +118,7 @@
     }
     .container__desc p {
         margin: 10px;
-        font-size: 9px;
+        font-size: 10.5px;
         color: white;
         line-height: 1.5;
         letter-spacing: 1px;
