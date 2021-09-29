@@ -1,5 +1,125 @@
+@import url("../../index.css");
 .skills {
     height: 100vh;
+    background: #b3cde0;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 1rem;
+    color: var(--bg-primary);
+}
+
+.row {
     display: flex;
-    background: #1c96ee;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+.col {
+    flex: 0.3;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head {
+    height: max-content;
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    color: var(--bg-primary);
+}
+
+.head svg {
+    flex: 0.7;
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+}
+
+.head span {
+    text-align: center;
+    flex: 0.3;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.elements {
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elements ul {
+    list-style: none;
+    margin: 10px;
+    color: var(--bg-primary);
+    overflow: hidden;
+}
+
+.elements li {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.elements li:hover {
+    transform: scale(1.1);
+    transition: var(--transition-speed);
+}
+
+
+/* Small screens */
+
+@media only screen and (max-width: 700px) {
+    .skills {
+        height: max-content;
+    }
+    .skills h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+    .row {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .col {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .head svg {
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem;
+    }
+    .head span {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .elements {
+        overflow: hidden;
+    }
+    .elements ul {
+        justify-content: start;
+        list-style: none;
+        padding-left: 0;
+    }
+    .elements li {
+        text-align: start;
+        width: 100%;
+    }
 }

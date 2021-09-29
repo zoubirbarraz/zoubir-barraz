@@ -10,7 +10,7 @@ const Projects = () => {
             , {
                 method: "GET",
                 headers: {
-                    Authorization: `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`
+                    Authorization: process.env.GITHUB_API_ACCESS_TOKEN
                 }
             }).then( async (response) => {
                 const data = await response.json();
