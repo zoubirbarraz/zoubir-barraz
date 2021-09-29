@@ -70,7 +70,7 @@ const Skills = () => {
                             <li>Creative and taking initiative</li>
                             <li>Fast learner</li>
                             <li>Autonomous and a team player </li>
-                            <li>Passionate which enable me to excel</li>
+                            <li>Passionate which enables me to excel</li>
                             <li>Curious about new things </li>
                             <li>Able to supervise work and projects</li>
                             <li>Fun to work with</li>
