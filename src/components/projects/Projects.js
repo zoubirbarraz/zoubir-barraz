@@ -65,7 +65,7 @@ const Projects = () => {
                         </div>
                         <div className="separator"></div>
                         <div className="project-languages">
-                            <span>Main Lainguage: <strong>{data.language}</strong> </span>
+                            <span>Main Language: <strong>{data.language}</strong> </span>
                         </div>
                     </div>
 

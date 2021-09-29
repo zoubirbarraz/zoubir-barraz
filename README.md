@@ -1,2 +1,2 @@
 # zoubir-barraz
-My personal potfolio
+My personal portfolio
