@@ -1,7 +1,7 @@
 @import url(../../index.css);
 .projects {
     height: 100vh;
-    background: #6497b1;
+    background: linear-gradient(0deg, #6fa3bd, #568096, #4e80a7);
     width: 100%;
     overflow: hidden;
 }

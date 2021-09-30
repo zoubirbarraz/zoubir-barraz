@@ -1,7 +1,7 @@
 @import url("../../index.css");
 .about {
     height: 100vh;
-    background: #14364e;
+    background: linear-gradient(0deg, #3c627e, #3a586d, #14364e);
 }
 
 .description {

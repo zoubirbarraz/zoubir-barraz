@@ -1,7 +1,7 @@
 @import url("../../index.css");
 .skills {
     height: 100vh;
-    background: #b3cde0;
+    background: linear-gradient(0deg, #b3cde0, #a8c0d1, #6fa3bd);
 }
 
 .skills h1 {
