@@ -1,5 +1,5 @@
 .contact {
-    height: 40vh;
+    height: 45vh;
     background: #14364e;
 }
 
@@ -59,7 +59,33 @@
 }
 
 .signature img {
-    animation: logo-rotation infinite 20s linear;
+    animation: logo-rotation infinite 10s linear;
+}
+
+.contact-socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.contact-logo {
+    text-decoration: none;
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+.contact-logo svg {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact-logo:hover {
+    transform: scale(1.2);
+    transition: var(--transition-speed)
 }
 
 @keyframes logo-rotation {
@@ -75,26 +101,41 @@
 /* Small screens */
 
 @media only screen and (max-width: 700px) {
+    .contact-container {
+        height: calc(60vh- 5rem);
+    }
     .contact h1 {
         font-size: 2rem;
     }
     .message p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .contact {
         height: calc(30vh + 10rem);
     }
     .signature span {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-left: 5px;
         padding-right: 5px;
         color: white;
     }
     .signature a {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .signature img,
     .signature svg {
+        width: 1rem;
+        height: 1rem;
+    }
+    .contact-socials {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+    .contact-logo svg {
         width: 1rem;
         height: 1rem;
     }

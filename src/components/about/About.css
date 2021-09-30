@@ -27,6 +27,7 @@
     width: 450px;
     height: 450px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .profile {
@@ -130,8 +131,7 @@
         border: solid 2px white;
         border-radius: 0.3rem;
         padding: 10px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 2rem;
         text-decoration: none;
         color: white;
         overflow: hidden;
