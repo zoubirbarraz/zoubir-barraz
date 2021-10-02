@@ -73,7 +73,7 @@ const About = () => {
                 </div>
                 <div className="profile">
                     <h2>About Me</h2>
-                    <p>Engineer in geomatics and land surveys, passionate about Photogrammetry and Computer Science which enabled me to create some applications that can develop further our domain of expertise. My graduation project and my personal projects have allowed me to develop my skills, among others, in the use of Python, Drone Photogrammetry, the AWS cloud environment and even web development ( <a href="https://www.aboutsurveyors.com/en/" target="_blank" rel="noopener noreferrer">AboutSurveyors</a>  developer). Motivated, and able to learn new things fast. </p>
+                    <p>Engineer in geomatics and land surveys laureate of the Agricultural and Veterinary Medicine Institute Hassan II of Rabat in 2020, passionate about Photogrammetry and Computer Science which enabled me to create some applications that can develop further our domain of expertise. My graduation project and my personal projects have allowed me to develop my skills, among others, in the use of Python, Drone Photogrammetry, the AWS cloud environment and even web development ( <a href="https://www.aboutsurveyors.com/en/" target="_blank" rel="noopener noreferrer">AboutSurveyors</a>  developer). Motivated, and able to learn new things fast. </p>
                     <div className="resume">
                         <button onClick={() => setShown(true)}>View Resume</button>
                         {shown && ReactDOM.createPortal(modalBody(), document.body)}

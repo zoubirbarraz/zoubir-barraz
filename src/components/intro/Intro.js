@@ -5,7 +5,7 @@ const Intro = () => {
         <section className="intro">
             <div className="container">
                 <h1>ZOUBIR BARRAZ</h1>
-                <p>Engineer in Geomatics and Web developper.</p>
+                <p>Engineer in Geomatics and Web developer.</p>
                 <ul className="socials">
                     <li className="social-logo">
                         <a href="https://github.com/zoubirbarraz" target="_blank" rel="noopener noreferrer">
