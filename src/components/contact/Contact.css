@@ -1,4 +1,5 @@
 .contact {
+    scroll-snap-align: end;
     height: 45vh;
     background: #14364e;
 }
