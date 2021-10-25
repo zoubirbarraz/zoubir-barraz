@@ -24,7 +24,7 @@ const Skills = () => {
                     <div className="elements">
                         <ul>
                             <li>Drone photogrammetry</li>
-                            <li>Web Mapping</li>
+                            <li>GIS/Web Mapping</li>
                             <li>3D scanning</li>
                             <li>Spatial Analysis</li>
                             <li>Cartography</li>
@@ -41,7 +41,7 @@ const Skills = () => {
                             <polyline points="17 8 21 12 17 16"></polyline>
                             <line x1="14" y1="4" x2="10" y2="20"></line>
                         </svg>
-                        <span>Developpement</span> 
+                        <span>Development</span> 
                     </div>
                     <div className="elements">
                         <ul>
